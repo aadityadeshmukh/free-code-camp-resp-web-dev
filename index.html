@@ -26,6 +26,24 @@
             border-radius: 10px;
             border-radius:50%;
         }
+        .injected-text{
+            margin-bottom:-25px;
+            text-align: center;
+        }
+        .yellow-box{
+            background-color: yellow;
+            padding:20px 40px 20px 40px;
+        }
+        .box{
+            border:5px solid black;
+        }
+        .red-box{
+            background-color: red;
+            margin:-15px;
+        }
+        .blue-box{
+            background-color: blue;
+        }
     </style>
 </head>
 <body>
@@ -64,7 +82,12 @@
                 <input type="checkbox" id="Happy" name="personality">Happy
             </label>
         </form>
-        
+        <h4 class="injected-text">Margin</h4>
+        <div class="box yellow-box">
+            <h4 class="box red-box">Padding</h4>
+            <h4 class="box blue-box">Padding</h4>
+        </div>
+
       </main>
 </body>
 </html>
